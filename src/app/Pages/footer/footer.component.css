@@ -1,0 +1,23 @@
+.container{
+    height: 200px;
+    background-color: #173557;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info > a{
+    color :white;
+    margin-top: 50px;
+    font-size: 0.8em;
+    font-family: Montserrat;
+}
+.info >p{
+    color :white;
+    font-size: 0.8em;
+    font-family: Montserrat;
+}

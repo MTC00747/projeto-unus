@@ -1,0 +1,91 @@
+.Container-sobre{
+    height: 930px
+}
+.sobre-nos{
+    height: 80px;
+    background-color: #d59d58;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre-nos > h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+}/*sections*/
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*Item 1*/
+.item1{
+    margin :auto;
+    display:  flex;
+    justify-content: space-between;
+    width: 800px;
+   
+}
+
+.logo2{
+   
+    display: flex;
+    justify-content: flex-start;
+    width: 280px;
+    margin-top: 20px;
+}
+.texto{
+    
+    width: 400px;
+    margin-top: 20px;
+
+    font-family: Montserrat;
+}
+.destaque{
+    font-weight: bold;
+}
+
+/*Item 2 */
+
+.item2{
+    margin :auto;
+    display:  flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 560px;
+  
+}
+.celular{
+    width: 500px;
+    height: 700px;
+  
+    position: relative;
+    
+}
+.informacoes{
+  
+    width: 400px;
+    margin-left: 100px;
+    height: 500px;
+}
+.informacoes > h1{
+    margin-left: 65px;
+    margin-top: 80px;
+    font-size: 1.5em;
+    font-family: Montserrat;
+    color: #d59d58;
+}
+.informacoes > h3{
+    margin-left: 65px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.informacoes > li {
+    margin-left: 65px;
+    font-family: Montserrat;
+    
+    font-size: 0.8em;
+}
+/*Vantagens*/

@@ -1,0 +1,27 @@
+.container_vantagens{
+    height: 400px;
+    background-color: #d59d58;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloco{
+    margin: 10px;
+   
+    width: 250px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloco > img {
+    width: 100px;
+}
+.bloco > p{
+font-family: Montserrat;
+color: white;
+margin-left: 5px;
+}

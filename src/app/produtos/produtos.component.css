@@ -1,0 +1,33 @@
+.Container_Produtos{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: Montserrat;
+    color: #D59D58;
+    margin-bottom: 30px;
+}
+.texto{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:600px;;
+   
+}
+.texto >p {
+    font-family: Montserrat;
+    font-size: 0.8em;
+    width: 600px;
+    
+}
+.texto > li{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 600px;
+}

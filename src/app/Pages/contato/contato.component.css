@@ -1,0 +1,84 @@
+.container_contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+}
+.logo > img {
+    width: 250px;
+}
+.contatos{
+    width: 60%;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.info-contato{
+   display:  flex;
+   align-items: center;
+ 
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+}
+.icones{
+    width: 400px;
+    display: flex;
+}
+.icones >p{
+   color:#173558;
+   font-family: Montserrat;
+}
+.icone{
+    width: 50px;
+}
+.redes-sociais{
+    display: flex;
+}
+.redes-sociais > h1 {
+    margin-left: 20px;
+    font-size: 1em;
+    color:#173558;
+    font-family: Montserrat;
+    display: flex;
+}
+.Atendimento{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.Atendimento > h1 {
+    width: 400px;
+    margin-left: 20px;
+    font-size: 1em;
+    color:#173558;
+    font-family: Montserrat;
+}
+.trabalhe-conosco{
+    display: flex;
+    margin-left:170px
+}
+.trabalho > h1 {
+    width: 400px;
+    margin-left: 20px;
+    font-size: 1em;
+    color:#173558;
+    font-family: Montserrat;
+}
+.trabalho > p {
+    margin-left: 20px;
+    width: 400px;
+    font-size: 1em;
+    color:#173558;
+    font-family: Montserrat;
+}
+.suporte{
+    width: 400px;
+}

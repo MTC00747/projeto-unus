@@ -1,0 +1,98 @@
+.container_banner{
+   height: 900px;
+   max-width: 100%;
+
+   background-image: url('../../../assets/Imagens/Imagem 1 - CTA 1.png');
+   background-size: 100% auto;
+}
+.titulo_banner{
+    width: 700px;
+    height: 200px;
+   
+
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin:auto;
+    margin-top:0;
+}
+.titulo1 {
+    color: #d59d58;
+    font-family: MontserratB;
+    font-size: 2em;
+    
+    height: 90px;
+    
+   
+}
+.titulo2 {
+    color: white;
+    font-family: MontserratR;
+    font-size: 1.5em;
+}
+.botao_banner{
+    margin-top: 125px;
+    margin-left: 700px;
+    
+}
+.abra-sua-conta{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-family:Montserrat ;
+    font-weight: bold;
+    font-size: 1.4em;
+    color : #173577;
+    background-color: white;
+    border: 1PX solid white;
+    
+    
+}
+
+@media only screen and (min-width: 376px) and (max-width: 767px) {
+    .container_banner{
+        height: 400px;
+    }
+    .titulo_banner{
+
+        width: 80%;
+        height: 200px;
+
+    }
+    .titulo1{
+        font-size: 1.2em;
+    }
+    .titulo2{
+        font-size: 0.8em;
+
+    }
+
+    .botao_banner{
+       
+        margin-left: 350px;
+        margin-top: 0px;
+
+    }
+        .abra-sua-conta{
+            width: 250px;
+            height: 40px;
+            border-radius: 20px;
+            font-family:Montserrat ;
+            font-weight: bold;
+            font-size: 1.4em;
+            color : #173577;
+            background-color: white;
+            border: 1PX solid white;
+            
+            
+        }
+   
+
+
+}
+

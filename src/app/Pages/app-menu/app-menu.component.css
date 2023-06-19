@@ -1,0 +1,54 @@
+
+.container_menu-bar{
+    height: 70px;
+    width: 100%;
+    border-bottom: 10px solid #d59d58;
+}
+.menu-burguer{
+    display: none;
+}
+.menu-bar{
+    margin: auto;
+    width: 60%;
+    
+
+    display:  flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-bar > a {
+    color : black;
+    margin: 13px;
+    font-family: Montserrat ;
+    font-weight: bold;
+}
+.Logo{
+    width: 85px;
+    padding-right: 50px;
+}
+
+/*Responsividade*/
+@media only screen and (min-width: 376px) and (max-width: 767px) 
+{
+    /* Estilos aplicados para dispositivos com largura máxima de 768 pixels */
+    .menu-burguer{
+        display: flex;
+        border: o;
+        background-color: transparent;
+        margin-left: 80px;
+    }
+    .container_menu-bar{
+        height: 120PX;
+    }
+    .menu-burguer>img{ 
+        width: 90px;
+        
+    }
+
+    .menu-bar > a {
+       display: none;
+    }
+    .Logo{
+        width: 150px;
+    }
+  }
