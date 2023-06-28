@@ -82,3 +82,87 @@
 .suporte{
     width: 400px;
 }
+@media only screen and (min-width: 376px) and (max-width: 480px) {
+    .contatos{
+        width: 60%;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+    }
+    .trabalhe-conosco{
+        display: flex;
+        margin-left:200px;
+    }
+    .logo > img {
+
+        width: 200px;
+}
+.trabalho > p {
+    margin-left: 20px;
+    width: 300px;
+    font-size: 1em;
+    color:#173558;
+    font-family: Montserrat;
+}
+}
+@media only screen and (min-width: 376px) and (max-width: 480px){
+    .contatos{
+        width: 60%;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+    }
+    .trabalhe-conosco{
+        display: flex;
+        margin-left:200px;
+    }
+    .logo > img {
+
+        width: 200px;
+}
+.trabalho > p {
+    margin-left: 20px;
+    width: 300px;
+    font-size: 1em;
+    color:#173558;
+    font-family: Montserrat;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .contatos{
+        width: 60%;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+    }
+    .trabalhe-conosco{
+        display: flex;
+        margin-left:0px;
+    }
+    .Atendimento{
+    
+       margin-left: 20px;
+    
+    }
+    .redes-sociais{
+        margin-left: 20px;
+    }
+    .logo > img {
+
+        width: 200px;
+}
+.trabalho > p {
+    margin-left: 20px;
+    width: 300px;
+    font-size: 1em;
+    color:#173558;
+    font-family: Montserrat;
+}
+}

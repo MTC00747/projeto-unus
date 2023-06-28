@@ -52,3 +52,20 @@
         width: 150px;
     }
   }
+  @media only screen and (min-width: 200px) and (max-width: 375px){
+    .menu-burguer{
+        display: flex;
+        border: o;
+        background-color: transparent;
+        margin-left: 60px;
+    }
+    .menu-bar > a {
+        display: none;
+     }
+      .menu-burguer>img{ 
+        width: 40px;
+    }
+    .menu-bar{
+        margin-left: 100px;
+    }
+  }

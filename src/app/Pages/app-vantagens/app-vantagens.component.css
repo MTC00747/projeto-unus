@@ -10,7 +10,7 @@
     margin: 10px;
    
     width: 250px;
-    height: 300px;
+    height: 400px;
 
     display: flex;
     flex-direction: column;
@@ -24,4 +24,51 @@
 font-family: Montserrat;
 color: white;
 margin-left: 5px;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .container_vantagens{
+        margin-top:400px ;
+        height: 799PX;
+        background-color: #d59d58;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bloco{
+        margin: 10px;
+       
+        width: 200px;
+        height: 400px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bloco > img {
+        width: 100px;
+    }
+    .bloco > p{
+    font-family: Montserrat;
+    color: white;
+    font-size:0.7em;
+    margin-right: 5px;
+    
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .container_vantagens{
+        margin-top:400px ;
+        height: 400px;
+        background-color: #d59d58;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
