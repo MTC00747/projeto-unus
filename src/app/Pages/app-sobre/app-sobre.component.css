@@ -1,5 +1,5 @@
 .Container-sobre {
-    height: 930px
+    height: 1020px
 }
 
 .sobre-nos {
@@ -67,7 +67,7 @@
 .celular {
     width: 500px;
     height: 700px;
-
+    margin-top:80PX;
     position: relative;
 
 }
