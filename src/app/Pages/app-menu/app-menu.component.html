@@ -1,20 +1,25 @@
 <div class="container_menu-bar">
-<nav class="menu-bar"> 
-    <img class="Logo" src="assets/Imagens/Horizontal.svg" alt="Logo">
-    <a href="#Sobre">Sobre nós </a>
-    <a href="#conta-digital">Conta digital</a>
-    <a href="#Vantagens">Vantagens</a>
-    <a href="#Produtos">Produto</a>
-    <a href="#contato">Atendimento</a>
-    <button (click)="abrirMenu()" class="menu-burguer"><img src="assets/Imagens/MenuBurguer.svg" alt=""></button>
-</nav>
+    <nav class="menu-bar">
+        <img class="Logo" src="assets/Imagens/Horizontal.svg" alt="Logo">
+        <a href="#Sobre">Sobre nós </a>
+        <a href="#conta-digital">Conta digital</a>
+        <a href="#Vantagens">Vantagens</a>
+        <a href="#Produtos">Produto</a>
+        <a href="#contato">Atendimento</a>
+        <button (click)="abrirMenu()" class="menu-burguer"><img src="assets/Imagens/MenuBurguer.svg" alt=""></button>
+    </nav>
 
-<div class="menuH" *ngIf="menuH">
-    <a href="#Sobre">Sobre nós </a>
-    <a href="#conta-digital">Conta digital</a>
-    <a href="#Vantagens">Vantagens</a>
-    <a href="#Produtos">Produto</a>
-    <a href="#contato">Atendimento</a>
-</div>
+    <div class="Menu2 animate__animated animate__fadeInRight"  *ngIf="menuH">
+        <button (click)="Fechar()">X</button>
+        <nav class="menuBar">
+
+
+            <a href="#Sobre">Sobre nós </a>
+            <a href="#conta-digital">Conta digital</a>
+            <a href="#Vantagens">Vantagens</a>
+            <a href="#Produtos">Produto</a>
+            <a href="#contato">Atendimento</a>
+        </nav>
+    </div>
 
 </div>

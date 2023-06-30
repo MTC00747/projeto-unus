@@ -14,6 +14,10 @@ export class AppMenuComponent {
       }else{
         this.menuH = false
       }
+     
        
+  }
+  Fechar(){
+    this.menuH = false     
   }
 }
